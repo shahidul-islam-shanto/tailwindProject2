@@ -1,0 +1,16 @@
+{
+  "name": "tailwindproject2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
